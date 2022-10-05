@@ -26,7 +26,7 @@ echo "Which region is your Conformity environment hosted in? e.g. For standalone
 read -r region
 
 echo "Enter your api key: "
-read -r apikey
+read -r apiKey
 
 # construct base URL depending on region and version
 if [ "$version" == "C1" ]
